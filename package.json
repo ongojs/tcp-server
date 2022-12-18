@@ -1,0 +1,42 @@
+{
+  "name": "@ongojs/tcp-server",
+  "version": "0.0.0",
+  "description": "tcp-server",
+  "main": "index.js",
+  "bin": {
+    "tcp-server": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/tcp-server.git"
+  },
+  "keywords": [
+    "tcp-server",
+    "net",
+    "eventEmitter"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/tcp-server/issues"
+  },
+  "homepage": "https://github.com/ongojs/tcp-server#readme",
+  "dependencies": {
+    "@socket.io/redis-adapter": "8.0.0",
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "ioredis": "5.2.4",
+    "redis": "4.5.1",
+    "socket.io": "4.5.4",
+    "socket.io-redis": "6.1.1"
+  }
+}
